@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>WhatsApp Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .h1{
+            background-color: antiquewhite;
+            padding: 20px;
+            border-radius: 10px;
+            border: 3px solid rgb(0, 132, 255);
+            text-align: center;
+        }
+
+
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .whatsapp-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: #25D366;
+            text-align: center;
+            width: 200px;
+        }
+        .whatsapp-link img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .whatsapp-link:hover {
+            background-color: #e0f7e8;
+        }
+        .description {
+            text-align: center;
+            margin-bottom: 20px;
+            border: 3px solid #25D366;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #e0f7e8;
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-family: "Comic Neue", cursive;
+            font-weight: 700;
+            font-style: italic;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="h1">WhatsApp Contact</h1>
+            <p class="description">If you want to buy any of our products, just knock us on WhatsApp.<br>We will try our best to provide you with great service.</p>
+        </div>
+        <a onclick="history.back()" class="whatsapp-link" href="https://wa.me/message/WM3ESB7XCHSAO1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            Contact us
+        </a>
+        <a onclick="history.back()" class="whatsapp-link" href="https://wa.me/message/77CKBCOOLHEQB1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            Contact us
+        </a>
+    </div>
+</body>
+</html>
